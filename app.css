@@ -1,0 +1,109 @@
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to right, #112393, #08165d);
+}
+.main {
+  max-width: 41.875rem;
+  width: 90%;
+  margin: 5.631rem auto 0;
+  padding: 1.875rem;
+  border-radius: 1.25rem;
+  text-align: center;
+  background-color: #fbfbfb;
+}
+.searchContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchContainer input {
+  font-size: 1.563rem;
+  border-radius: 2.5rem;
+  flex-grow: 1;
+  color: #979797;
+  padding: 0.625rem 1.563rem;
+  margin-right: 1.25rem;
+  border-color: #a1a1a1;
+  border-style: solid;
+}
+
+.searchBtn {
+  border-radius: 50%;
+  width: 3.75rem;
+  height: 3.75rem;
+  color: #979797;
+  border-color: #a1a1a1;
+  border-style: solid;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailOne {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+.city {
+  font-size: 5rem;
+  font-weight: bold;
+}
+.time {
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.col img {
+  margin-right: 0.625rem;
+  width: 5rem;
+}
+.humidity,
+.windSpeed {
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+
+/* media queries */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+}
